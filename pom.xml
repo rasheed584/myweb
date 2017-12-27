@@ -51,7 +51,14 @@
 			<name>Snapshot</name>
 			<url>http://34.208.10.122:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
-  	</distributionManagement>
+	  </distributionManagement>
+	<distributionmanager>
+      <repositry>
+               <id>nexus</id>
+               <username>admin</username>
+               <password>admin123</password>
+       </repositry>
+   </distributionmanager>
 	
 <build>
     <plugins>
