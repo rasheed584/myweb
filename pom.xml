@@ -48,7 +48,7 @@
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
-			<name>Snapshot</name>
+			<name>SNAPSHOT</name>
 			<url>http://18.209.104.78:8081/repository/demo-snapshot/</url>
 		</snapshotRepository>
 	  </distributionManagement>
