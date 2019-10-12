@@ -47,10 +47,10 @@
 			<url>http://18.209.104.78:8081/repository/demo-release/</url>
 		</repository>
 		<snapshotRepository>
-			<id>nexus</id>
-			<name>Snapshots</name>
-			<url>http://18.209.104.78:8081/repository/demo-snapshot/</url>
-		</snapshotRepository>
+        		<id>nexus</id>
+       			<name>demo-snapshot</name>
+        		<url>http://18.209.104.78:8081/repository/demo-snapshot/</url>
+    		</snapshotRepository>
 	  </distributionManagement>
 <build>
     <plugins>
