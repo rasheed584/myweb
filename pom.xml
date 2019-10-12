@@ -6,10 +6,10 @@
 	<packaging>war</packaging>
 	<version>2.11.0-SNAPSHOT</version>
 	<name>myweb Maven Webapp</name>
-	<url>http://maven.apache.org</url>
+	<url>http://maven.apache.org</url>	
 	<properties>
-		<docker.image.prefix>kammana</docker.image.prefix>
-	</properties>	
+		<sonar.host.url>http://18.209.104.78:9000/</sonar.host.url>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
